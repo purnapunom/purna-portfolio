@@ -1,0 +1,111 @@
+/* Rest style */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    width: 80%;
+}
+
+/* Common Style */
+.common-btn {
+    background-color: brown;
+    padding: 8px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    carsor: pointer;
+}
+.outline-btn {
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: brown;
+    border: 1px solid brown;
+    carsor: pointer;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 12px 0;
+}
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+
+}
+.logo-r {
+    color: brown;
+        
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+ul li a {
+    text-decoration: none;
+}
+
+/* hero section */
+.hero-parent-root{
+    background-color: rgb(234, 229, 223);
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-p-1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-left-button-parent {
+    margin-bottom: 12px;
+
+}
+
+/* About me */
+.about-parent {
+    background-color: rgb(234, 229, 223);
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 10px;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box {
+    background-color: rgb(240, 219, 193);
+    padding: 5px;
+    border-radius: 10px;
+}
